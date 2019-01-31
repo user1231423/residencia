@@ -1,0 +1,27 @@
+<!-- scripts -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/particles.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.counter').each(function () {
+            $((function () {
+                var number = 200 + Math.floor(Math.random() * 500);
+                $('.count-number').text(number);
+            }));
+        });
+    });
+</script>
+
+<script>
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop()){
+            $('#navbar-main').addClass('nav-window');
+        }
+        else
+        {
+            $('#navbar-main').removeClass('nav-window');
+        }
+    });
+</script>

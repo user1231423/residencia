@@ -1,0 +1,10 @@
+
+//Import variables
+@import 'variables.scss';
+
+//Import bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+//Import Custom scss
+@import "custom.scss";
